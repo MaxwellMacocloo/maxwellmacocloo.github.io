@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Andrews Boahen",
-    "email": "none@example.org",
+    "name": "Maxwell Kwesi Mac-Ocloo",
+    "email": "macocloo@msu.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://maxwellmacocloo.github.io",
+    "summary": "Doctoral Candidate, Department of Epidemiology and Biostatistics, Michigan State University.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -16,17 +16,17 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://scholar.google.com/citations?user=dywP6TkAAAAJ&hl=en"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "MaxwellMacocloo",
+        "url": "https://github.com/MaxwellMacocloo"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/maxwell-kwesi-mac-ocloo-6194981a5"
       }
     ]
   },

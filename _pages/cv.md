@@ -7,8 +7,8 @@ redirect_from:
   - /resume
 ---
 
-**[Download Full CV (PDF)]({{ site.baseurl }}/files/Boahenan_CV_IMSI.pdf)**  
-*(Updated August 2026)*
+**[Download Full CV (PDF)]({{ site.baseurl }}/files/Mac-Ocloo_CV.pdf)**  
+*(Updated September 2026)*
 
-<iframe src="{{ site.baseurl }}/files/Boahenan_CV_IMSI-3.pdf" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="{{ site.baseurl }}/files/Mac-Ocloo_CV.pdf" width="100%" height="800px" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
