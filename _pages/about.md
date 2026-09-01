@@ -7,18 +7,19 @@ redirect_from:
   - /about.html
 ---
 {: .notice--success .large-quote}
-"We are a sum total of what we have learned from all who have taught us, both great and small."~ *Dr. Myles munroe*
+"A goal is a dream with a deadline."~ *Napoleon Hill*
 
-Hi! I'm Andrews Boahen, a Doctoral Candidate in the [Department of Statistics & Probability](https://stt.natsci.msu.edu) at Michigan State University, where I also earned my M.S. in Statistics en route to the Ph.D. Under the mentorship of [Dr. Chih-Li Sung](https://chihli.github.io), I develop methods for computer model calibration and active learning. 
+I am Maxwell Kwesi Mac-Ocloo, a PhD candidate in Biostatistics at Michigan State University with research interests at the intersection of statistical methodology, causal inference, and public health. My work focuses on developing and applying statistical methods to complex biomedical and population health problems. I am particularly interested in using rigorous statistical approaches to better understand health disparities, treatment outcomes, and factors that influence health and healthcare utilization.
 
-Before coming to MSU, I earned a first-class B.Sc. in Actuarial Science from the [Department of Statistics & Actuarial Science](https://www.ug.edu.gh/statistics/home) at the [University of Ghana](https://www.ug.edu.gh) and an M.S. in Mathematical Sciences with distinction from the African Institute for Mathematical Sciences ([AIMS-Ghana](https://aims.edu.gh)), where I worked on large-deviation and extreme-value theory under the supervision of [Prof. Kwabena Doku-Amponsah](https://www.ug.edu.gh/statistics/people/prof-kwabena-doku-amponsah).
+I hold a a first class B.Sc. in Statistics from [University of Energy and Natural Resources, Sunyani](https://uenr.edu.gh/academic-departments-and-programmes/) and a MS in Statistics and Data Science from The University of Texas at El Paso (UTEP). My research focuses on developing and applying statistical methods to complex biomedical and population health problems. My methodological interests include causal inference, missing data, longitudinal data analysis, high-dimensional statistics, robust inference, penalized regression, machine learning, and statistical methods for observational data.
 
+My long-term goal is to develop innovative statistical methodology while collaborating across biostatistics, epidemiology, medicine, and public health to address important health challenges and improve evidence-based decision-making.
 
-## News
+<!--## News
 
 <div class="news" markdown="1">
 
-- **[Aug 2026]** Delighted by the invitation to present my work on ***computer model calibration*** at [ISNET-12](https://conferences.lbl.gov/event/2526/page/331-participate-in-isnet-12), hosted by [Lawrence Berkeley National Lab](https://www.lbl.gov/).
+<!--- **[Aug 2026]** Delighted by the invitation to present my work on ***computer model calibration*** at [ISNET-12](https://conferences.lbl.gov/event/2526/page/331-participate-in-isnet-12), hosted by [Lawrence Berkeley National Lab](https://www.lbl.gov/).
  
 - **[May 2026]** Happy to announce that I have been awarded the M.Sc. in Statistics from [MSU](https://msu.edu), en route to my Ph.D.!
 
