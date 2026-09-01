@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 #site_theme               : "default"
-remote_theme             : "mmistakes/minimal-mistakes@4.26.2"  # Latest stable version compatible with GitHub Pages
-title                    : "Andrews Boahen"
+remote_theme             : "air"  # Latest stable version compatible with GitHub Pages
+title                    : "Maxwell Kwesi Mac-Ocloo"
 title_separator          : "-"
 name                     : &name "Andrews Boahen"
 description              : &description "Your Name's academic portfolio"
@@ -24,20 +24,20 @@ repository               : "MaxwellMacocloo/maxwellmacocloo.github.io"
 author:
   # Biographic information
   avatar           : "boahenan_new.png"
-  name             : "Andrews Boahen"
+  name             : "Maxwell Kwesi Mac-Ocloo"
   pronouns         : "He/Him" 
-  bio              : "Doctoral Candidate, Department of Statistics & Probability"
+  bio              : "Doctoral Candidate, Department of Epidemiology and Biostatistics"
   location         : "East Lansing, MI."
   employer         : "Michigan State University"
   uri              : # URL
-  email            : "boahenan@msu.edu" 
+  email            : "macocloo@msu.edu" 
 
   # Academic websites
-  academia         : # URL
+  academia         : "https://michiganstate.academia.edu/MaxwellMacOcloo"s
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=blpgZNcAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=dywP6TkAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0009-0000-2162-3598"
+  orcid            :  # URL
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "AndrewsBoahen"
+  github           : "MaxwellMacocloo"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "akboahen"
+  linkedin         : "maxwell-kwesi-mac-ocloo-6194981a5"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
