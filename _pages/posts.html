@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Blog Posts"
+permalink: /posts/
+author_profile: true
+---
+
+{% include base_path %}
+
+<blockquote style="border-left: 4px solid #ccc; padding-left: 1rem;">
+  <p style="margin: 0 0 4px 0;">"Quality means doing it right when no one is looking."</p>
+  <cite style="display: block; margin: 0;"> Henry Ford</cite>
+</blockquote>
+
+<p>I will be discussing some interesting topics related to (probably not directly) to my research on this page.</p>
+
+{% if site.posts.size > 0 %}
+  {% for post in site.posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No posts yet — check back soon.</em></p>
+{% endif %}

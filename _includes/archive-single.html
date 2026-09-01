@@ -1,0 +1,74 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    {% assign item = post %}
+
+<div class="publication-item">
+  {% if forloop %}
+    <div class="publication-number">
+      {{ forloop.index }}.
+    </div>
+  {% endif %}
+
+  <div class="publication-content">
+
+<div class="pub-title">
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" target="_blank" rel="noopener">
+      {{ post.title }}
+    </a>
+  {% elsif post.url %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+      {{ post.title }}
+    </a>
+  {% else %}
+    {{ post.title }}
+  {% endif %}
+</div>
+
+
+    <!-- Authors + year -->
+    {% if item.authors %}
+      <div class="pub-authors">
+        {{ item.authors }}{% if item.year %} ({{ item.year }}){% endif %}
+      </div>
+    {% endif %}
+
+    <!-- Status -->
+    {% if item.status %}
+      <div class="pub-status">
+        {{ item.status }}.
+      </div>
+    {% endif %}
+
+  </div>
+</div>
+
+
+  </article>
+</div>

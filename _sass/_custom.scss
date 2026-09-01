@@ -1,0 +1,125 @@
+/* Tighten spacing in News section */
+.news {
+  margin-bottom: 1rem; /* Reduce overall section bottom margin */
+}
+
+.news h3 {
+  margin-bottom: 1rem; /* Space below "News" heading */
+}
+
+.news ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news li {
+  margin-bottom: 0.1rem; /* Main control: reduce space between items */
+  padding-bottom: 0.1rem;
+}
+
+/* Hide breadcrumb trail completely */
+.breadcrumbs,
+.page__breadcrumbs,
+nav.breadcrumbs,
+.trail,
+.path-trail {
+  display: none !important;
+}
+
+/* Extra safety for Primer-style numbered trails */
+ol.breadcrumbs,
+ul.breadcrumbs {
+  display: none !important;
+}
+
+/* Optional: even tighter */
+/* .news li { margin-bottom: 0.2rem; } */
+/* Remove top spacing inside numbered publications */
+
+/* === FINAL publication spacing tuning === */
+
+/* === FORCE number + title on same line === */
+
+
+.publication-item {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Number styling */
+/*.publication-number {
+  flex: 0 0 auto;
+  width: 1.6rem;
+  text-align: right;
+  line-height: 1.4;
+} */
+
+/* Prevent archive block from breaking layout */
+.publication-content {
+  flex: 1 1 auto;
+  margin: 0 !important;
+}
+
+/* Kill all top margins inside archive */
+.publication-content .archive__item,
+.publication-content .archive__item-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Tighten title spacing */
+.publication-content .archive__item-title {
+  margin-bottom: 0.15rem !important;
+}
+
+/* Tighten metadata spacing */
+.publication-content p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Compact line height */
+.publication-content {
+  line-height: 1.45;
+}
+
+.pub-title a {
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+/* === KILL REAL <ol> NUMBERING IN PUBLICATIONS (ROOT CAUSE FIX) === */
+
+/* Minimal Mistakes archive lists */
+.page__content ol,
+.page__content .archive ol,
+.page__content .archive__list,
+.page__content .archive__list ol {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Extra safety: kill numbering on list items themselves */
+.page__content ol > li {
+  list-style-type: none !important;
+}
+
+/* ======================================
+   Restart numbering per publication type
+   ====================================== */
+
+/* Each section heading resets the counter */
+.page__content h2 {
+  counter-reset: archive-item;
+}
+
+/* Ensure archive items increment correctly */
+.archive__item::before {
+  counter-increment: archive-item;
+}
