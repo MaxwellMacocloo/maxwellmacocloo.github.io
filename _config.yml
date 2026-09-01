@@ -12,8 +12,8 @@ locale                   : "en-US"
 remote_theme             : "air"  # Latest stable version compatible with GitHub Pages
 title                    : "Maxwell Kwesi Mac-Ocloo"
 title_separator          : "-"
-name                     : &name "Andrews Boahen"
-description              : &description "Your Name's academic portfolio"
+name                     : &name "Maxwell Kwesi Mac-Ocloo"
+description              : &description "Maxwell Kwesi Mac-Ocloo's academic portfolio"
 url                      : https://maxwellmacocloo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MaxwellMacocloo/maxwellmacocloo.github.io"  
@@ -23,7 +23,7 @@ repository               : "MaxwellMacocloo/maxwellmacocloo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "boahenan_new.png"
+  avatar           : "Max.JPG"
   name             : "Maxwell Kwesi Mac-Ocloo"
   pronouns         : "He/Him" 
   bio              : "Doctoral Candidate, Department of Epidemiology and Biostatistics"
