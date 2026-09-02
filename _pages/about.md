@@ -15,13 +15,6 @@ I hold a a first class B.Sc. in Statistics from [University of Energy and Natura
 
 My long-term goal is to develop innovative statistical methodology while collaborating across biostatistics, epidemiology, medicine, and public health to address important health challenges and improve evidence-based decision-making.
 
-<!--## News
-
-<div class="news" markdown="1">
-
-- **[Month Year]** Add your own news items here.
-
-</div>
 
 
 
