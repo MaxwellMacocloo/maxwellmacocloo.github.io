@@ -7,4 +7,6 @@ order: 4
 ---
 
 - Managed and analyzed large-scale high-performance computing datasets to optimize system efficiency.
-- Derived and visualized performance metrics from large datasets using Python, demonstrating scalability in big-data environments.
+- Explored and visualized performance metrics from large datasets using Python, demonstrating scalability in big-data environments.
+- Parsed and managed logs from HPC workflow manager and profiler.
+- Developed model for anomaly detection. 
