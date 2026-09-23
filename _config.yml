@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-#site_theme               : "default"
+site_theme               : "dark"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "sunrise"
 title                    : "Maxwell Kwesi Mac-Ocloo"
@@ -236,6 +236,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   experience:
+    output: false
+  education:
     output: false
   skills:
     output: false
