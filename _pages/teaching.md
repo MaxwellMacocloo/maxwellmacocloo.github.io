@@ -42,7 +42,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 **Enrollment:** ~10 students
 
 
-## $\color{blue}\text{University of Energy and Natural Resources, Sunyani, Ghana}$
+## $\color{blue}\text{University of Energy and Natural Resources, Sunyani-Ghana}$
 
 
 ### STAT 301 : Linear Models I
