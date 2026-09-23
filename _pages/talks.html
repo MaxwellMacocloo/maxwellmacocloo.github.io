@@ -11,12 +11,9 @@ author_profile: true
 
 {% endif %}
 
-<ul>
-  <li>Exploring Real-time Data Transfers from Stanford Linear Accelerator Center (SLAC) to National Energy Research Scientific Computing Center (NERSC).</li>
-  <li>Variance Component Testing in Generalized Linear Models with Random Effects: presentation of the paper by Xihong Lin.</li>
-  <li>Association between Social Support and Treatment Adherence in Head and Neck Cancer Patients.</li>
-</ul>
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<div class="talk-list">
+{% assign talks = site.talks | sort: "date" | reverse %}
+{% for post in talks %}
+  {% include talk-card.html %}
 {% endfor %}
+</div>

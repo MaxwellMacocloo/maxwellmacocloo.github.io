@@ -1,0 +1,263 @@
+/* ==========================================================================
+   Talks, Experience and Skills pages
+   ========================================================================== */
+
+:root {
+  --section-accent: #00a0d1;
+  --section-card-bg: #fff;
+  --section-card-shadow: 0 2px 10px rgba(16, 42, 67, 0.08);
+  --section-pill-bg: rgba(0, 160, 209, 0.12);
+}
+
+html[data-theme="dark"] {
+  --section-card-bg: #525252;
+  --section-card-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --section-pill-bg: rgba(0, 160, 209, 0.25);
+}
+
+.section-pill {
+  display: inline-block;
+  padding: 0.15em 0.75em;
+  border-radius: 999px;
+  background: var(--section-pill-bg);
+  color: var(--section-accent);
+  font-size: $type-size-6;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Talks ------------------------------------------------------------------- */
+
+.talk-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.talk-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  border-left: 4px solid var(--section-accent);
+  border-radius: 10px;
+  background: var(--section-card-bg);
+  box-shadow: var(--section-card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(16, 42, 67, 0.14);
+  }
+}
+
+.talk-card__date {
+  flex: 0 0 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  background: var(--section-accent);
+  color: #fff;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.talk-card__month {
+  font-size: $type-size-6;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.talk-card__day {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.talk-card__year {
+  font-size: $type-size-6;
+  opacity: 0.9;
+}
+
+.talk-card__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.talk-card__event {
+  margin: 0.4rem 0 0.3rem;
+  font-size: $type-size-4;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--section-accent);
+    }
+  }
+}
+
+.talk-card__title {
+  margin: 0 0 0.5rem;
+  font-style: italic;
+}
+
+.talk-card__meta {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.85em;
+}
+
+.talk-card__sep {
+  margin: 0 0.35em;
+}
+
+/* Experience timeline -------------------------------------------------------- */
+
+.timeline {
+  position: relative;
+  margin-top: 1rem;
+  padding-left: 1.75rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.45rem;
+    width: 2px;
+    background: var(--section-pill-bg);
+  }
+}
+
+.timeline__item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.timeline__marker {
+  position: absolute;
+  top: 1.35rem;
+  left: -1.75rem;
+  width: 1rem;
+  height: 1rem;
+  border: 3px solid var(--section-accent);
+  border-radius: 50%;
+  background: var(--global-bg-color);
+}
+
+.timeline__card {
+  padding: 1.1rem 1.25rem 0.4rem;
+  border-radius: 10px;
+  background: var(--section-card-bg);
+  box-shadow: var(--section-card-shadow);
+}
+
+.timeline__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.timeline__role {
+  margin: 0;
+  font-size: $type-size-4;
+}
+
+.timeline__org {
+  margin: 0.4rem 0 0.6rem;
+  color: var(--section-accent);
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.timeline__loc {
+  color: var(--global-text-color-light);
+  font-weight: 400;
+}
+
+.timeline__content ul {
+  margin-top: 0;
+}
+
+.timeline__content li {
+  font-size: 0.9em;
+}
+
+/* Skills ------------------------------------------------------------------ */
+
+.skill-group {
+  margin-bottom: 2rem;
+}
+
+.skill-group__title {
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--section-pill-bg);
+  font-size: $type-size-4;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.skill-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.1rem 0.5rem 0.9rem;
+  border-radius: 12px;
+  background: var(--section-card-bg);
+  box-shadow: var(--section-card-shadow);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(16, 42, 67, 0.15);
+  }
+
+  img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    padding: 4px;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  span {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: $small) {
+  .talk-card {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .talk-card__date {
+    flex: none;
+    flex-direction: row;
+    gap: 0.4em;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .talk-card__day {
+    font-size: 1em;
+  }
+}
