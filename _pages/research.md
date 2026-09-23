@@ -20,7 +20,7 @@ $$E(Y \mid X) = \beta_0 + \sum_{j=1}^{p} f_j(X_j),$$
 
 where each $f_j$ is expanded in a spline basis and only a few $f_j$ are nonzero. Estimation solves a penalized problem of the form
 
-$$\hat f = \arg\min_{f_1,\ldots,f_p} \; \frac{1}{n}\sum_{i=1}^{n} \Bigg\{Y_i - \beta_0 - \sum_{j} f_j(X_{ij})\Bigg\}^2 + \lambda_1 \sum_{j} \|f_j\|_n + \lambda_2 \sum_{j} J(f_j),$$
+$$\hat f = \arg\min_{f_1,\ldots,f_p} \; \frac{1}{n}\sum_{i=1}^{n} \Bigg\(Y_i - \beta_0 - \sum_{j} f_j(X_{ij})\Bigg\)^2 + \lambda_1 \sum_{j} \|f_j\|_n + \lambda_2 \sum_{j} J(f_j),$$
 
 where $\|f_j\|_n$ is a group-lasso-type sparsity penalty that removes whole components, and $J(f_j) = \int \{f_j''(x)\}^2 dx$ controls roughness.
 
