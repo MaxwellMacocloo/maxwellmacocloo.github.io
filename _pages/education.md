@@ -14,6 +14,9 @@ Advisor: Dr. David Todem
 **The University of Texas at El Paso**, El Paso, TX  
 *Aug 2021 – May 2023*  
 Advisor: Dr. Abhijit Mandal
+Topic: Robust P Robust Penalized Density P ed Density Power Div ower Divergence Regr gence Regression With ession With
+Scad Penalty For High Dimensional Data Analysis 
+
 
 ### B.Sc. in Statistics (Valedictorian)
 **University of Energy and Natural Resources**, Sunyani, Ghana  
