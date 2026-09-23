@@ -5,6 +5,13 @@ permalink: /skills/
 author_profile: true
 ---
 
-### Statistical Software & Programming
-R (RStudio) · SAS · Python · Stata · SPSS 
+### Programming Language 
+R  · SAS · Python   
 
+### Frameworks 
+
+tidyverse . scikit-learn . PyTorch . TensorFlow . Keras . tidymodels. tidymodels
+
+
+### Tools
+git . jupyter
