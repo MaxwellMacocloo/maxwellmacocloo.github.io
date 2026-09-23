@@ -35,11 +35,3 @@ author_profile: true
 
 - Managed and analyzed large-scale high-performance computing datasets to optimize system efficiency.
 - Derived and visualized performance metrics from large datasets using Python, demonstrating scalability in big-data environments.
-
-### Graduate Teaching Assistant
-**The University of Texas at El Paso**, El Paso, TX  
-*Aug 2021 – May 2023*
-
-- Developed and delivered lesson plans tailored to diverse learning needs, reinforcing core mathematical concepts and problem-solving skills.
-- Administered, graded, and tracked weekly assignments and quizzes for 40 students to monitor academic progress and provide timely feedback.
-- Tutored 55 students in Proportion and Algebra.
