@@ -38,9 +38,9 @@ author_profile: true
 </div>
 
 <section class="skill-group">
-  <h2 class="skill-group__title">Relevant Coursework</h2>
+  <h2 class="skill-group__title">Interests</h2>
   <div class="chip-list">
-    {% assign courses = "Statistical Programming|Statistical Data Mining|Statistical Consulting (Analysis and Design)|Generative Models|Spline Regression|Linear Regression Models|Mixed Models|Survival Analysis|Causal Inference|Mediation Analysis|Semiparametric and Nonparametric Models" | split: "|" %}
+    {% assign courses = "Statistical Machine Learning| Non and Semi-Parametric Models |Statistical Methodology| Survival Analysis/Time-to-Event Methods |Computational Statistics |Latent Variable Modeling /SEM| Causal Inference |Longitudinal/Repeated-Measures Data Analysis" | split: "|" %}
     {% for c in courses %}<span class="chip">{{ c }}</span>{% endfor %}
   </div>
 </section>
