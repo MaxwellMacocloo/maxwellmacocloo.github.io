@@ -10,9 +10,10 @@
 }
 
 html[data-theme="dark"] {
-  --section-card-bg: #525252;
-  --section-card-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  --section-pill-bg: rgba(0, 160, 209, 0.25);
+  --section-accent: #38bdf8;
+  --section-card-bg: #172233;
+  --section-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  --section-pill-bg: rgba(56, 189, 248, 0.16);
 }
 
 .section-pill {
@@ -259,5 +260,104 @@ html[data-theme="dark"] {
 
   .talk-card__day {
     font-size: 1em;
+  }
+}
+
+/* Education ---------------------------------------------------------------- */
+
+.edu-card {
+  display: flex;
+  gap: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+.edu-card__logo {
+  flex: 0 0 64px;
+
+  img,
+  .edu-card__initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+  }
+
+  img {
+    padding: 6px;
+    background: #fff;
+    object-fit: contain;
+  }
+}
+
+.edu-card__initials {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.edu-card__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.edu-card__honor {
+  display: inline-block;
+  margin-top: 0.35rem;
+  color: #d4a017;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.edu-card__detail {
+  margin: 0.2rem 0;
+  font-size: 0.9em;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  padding: 0.3em 0.85em;
+  border-radius: 999px;
+  background: var(--section-card-bg);
+  box-shadow: var(--section-card-shadow);
+  font-size: 0.85em;
+}
+
+@media (max-width: $small) {
+  .edu-card {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+}
+
+/* Dark-mode readability fixes ---------------------------------------------------- */
+
+html[data-theme="dark"] {
+  /* notice boxes (e.g. the quote on the home page) */
+  [class^="notice"],
+  [class*=" notice"] {
+    background-color: var(--section-card-bg);
+    border-left: 4px solid var(--section-accent);
+    color: var(--global-text-color);
+  }
+
+  /* the GitHub brand icon is near-black */
+  .fa-github,
+  .fa-github-alt,
+  .fa-github-square {
+    color: var(--global-text-color);
+  }
+
+  /* pure-blue MathJax headings (\color{blue}) are too dark on navy */
+  mjx-container [style*="color: blue"],
+  mjx-container [style*="color:blue"] {
+    color: #60a5fa !important;
   }
 }
