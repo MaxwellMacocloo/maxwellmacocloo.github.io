@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-## $\color{red}\text{Graduate Teaching Assistant, University of Texas at El Paso, El Paso}$
+## $\color{blue}\text{Graduate Teaching Assistant, University of Texas at El Paso, El Paso}$
 
 ### MATH 3305 : Proportion and Algebra
 **Grader · Fall 2021**
