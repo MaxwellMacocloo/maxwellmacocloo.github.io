@@ -9,7 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 #site_theme               : "default"
-remote_theme             : "air"  # Latest stable version compatible with GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "sunrise"
 title                    : "Maxwell Kwesi Mac-Ocloo"
 title_separator          : "-"
 name                     : &name "Maxwell Kwesi Mac-Ocloo"
