@@ -47,7 +47,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 ### STAT 301 : Linear Models I
 
-** Teaching Assistant · Fall 2019**
+**Teaching Assistant · Fall 2019**
 
 **Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
 
@@ -65,7 +65,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 ### STAT 307 : Sampling Theory and Applications I
 
-** Teaching Assistant · Fall 2019** 
+**Teaching Assistant · Fall 2019** 
 
 **Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
 
@@ -74,7 +74,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 ### ACTS 301 : Theory of Interest
 
-** Teaching Assistant · Fall 2019 **
+**Teaching Assistant · Fall 2019**
 
 **Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
 
@@ -84,7 +84,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 ### STAT 306 : Multivariate Distribution Theory
 
-** Teaching Assistant · Spring 2020 **
+**Teaching Assistant · Spring 2020**
 
 **Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
 
@@ -94,7 +94,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 ### STAT 302 : Statistical Software and Computing
 
-** Teaching Assistant · Spring 2020 **
+**Teaching Assistant · Spring 2020**
 
 **Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
 
@@ -104,7 +104,7 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 ### STAT 314 : Statistical Quality Control 
 
-** Teaching Assistant · Spring 2020 **
+**Teaching Assistant · Spring 2020**
 
 **Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
 
