@@ -92,16 +92,6 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 
 
 
-### STAT 302 : Statistical Software and Computing
-
-**Teaching Assistant · Spring 2020**
-
-**Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
-
-**Enrollment:** ~10 students
-
-
-
 ### STAT 314 : Statistical Quality Control 
 
 **Teaching Assistant · Spring 2020**
@@ -111,6 +101,24 @@ Tutored undergraduate course on Precalculus, Calculus I, and II, Maths for Socia
 **Enrollment:** ~10 students
 
 
+
+### STAT 401 : Linear Models II
+
+**Teaching Assistant · Spring 2020**
+
+**Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
+
+**Enrollment:** ~45 students
+
+
+
+### STAT 410 : Computer-Assisted Multivariate Analysis
+
+**Teaching Assistant · Spring 2020**
+
+**Responsibilities:** Organized weekly tutorial sections by solving problem sets; office hours for students with extra help with the material; graded exams and homeworks
+
+**Enrollment:** ~10 students
 
 
 
