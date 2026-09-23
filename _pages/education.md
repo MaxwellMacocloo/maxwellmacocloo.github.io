@@ -13,7 +13,8 @@ Advisor: Dr. David Todem
 ### M.Sc. in Statistics and Data Science
 **The University of Texas at El Paso**, El Paso, TX  
 *Aug 2021 – May 2023*  
-Advisor: Dr. Abhijit Mandal
+Advisor: Dr. Abhijit Mandal  
+Thesis: *Robust Penalized Density Power Divergence Regression with SCAD Penalty for High-Dimensional Data Analysis*
 
 
 

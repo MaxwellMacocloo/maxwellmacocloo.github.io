@@ -235,6 +235,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  experience:
+    output: false
+  skills:
+    output: false
   posts:
     output: true
     permalink: /:collection/:path/
